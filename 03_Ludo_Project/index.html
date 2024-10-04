@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ludo Game</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <h1>Ludo Game</h1>
+
+  <div class="game-container">
+    <div id="board">
+      <!-- Game Board will go here (use CSS for the layout) -->
+      <div class="cell" id="cell1"></div>
+      <div class="cell" id="cell2"></div>
+      <!-- Add other cells -->
+    </div>
+    <div class="dice-container">
+      <button id="rollDiceBtn">Roll Dice</button>
+      <p id="diceResult">Dice: 0</p>
+    </div>
+    <div class="player-info">
+      <p>Player 1: <span id="player1Position">Start</span></p>
+      <p>Player 2: <span id="player2Position">Start</span></p>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+
+</html>
