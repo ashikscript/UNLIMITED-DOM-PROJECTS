@@ -1,0 +1,67 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  box-sizing: border-box;
+  color: #fff;
+}
+
+html,
+body {
+  height: 100vh;
+}
+
+body {
+  background-image: url(assets/v2osk-PaNxe-QJwhE-unsplash.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#container {
+  background: rgba(255, 255, 255, 0.3);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(5.5px);
+  -webkit-backdrop-filter: blur(5.5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-radius: 20px;
+  padding: 25px 15px;
+  width: 60%;
+  text-align: center;
+}
+
+#container p {
+  font-size: 25px;
+  font-weight: bold;
+  color: #000;
+  margin-bottom: 10px;
+}
+
+#container h4 {
+  display: inline-block;
+  background-color: #262626;
+  color: #fff;
+  padding: 10px 15px;
+  border-radius: 5px;
+}
+
+#container button {
+  display: block;
+  width: 150px;
+  padding: 10px;
+  border-radius: 5px;
+  color: #000;
+  margin: 10px auto 0;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* #container button :hover {
+  background-color: #d5bebe;
+} */
